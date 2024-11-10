@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Let's Talk!</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="header">
+			<a href="index.html"><img id="logo" src="images/logo.png" alt="Tech Influencer Logo"></a>
+
+			<div class="header-right">
+				<a href="index.html">Home</a>
+				<a class="active" href="contact.html">Contact</a>
+			</div>
+
+		</div>
+
+		<div class="content">
+  			<div class="column">
+    			<h1>Let's talk about everything!</h1>
+    			<p>Connect with Jane Doe, the visionary tech influencer, and stay updated with the latest trends in the ever-evolving world of technology. Feel free to reach out, share your thoughts, or inquire about collaborations.</p>
+    			<img id="contactImg" src="https://media.tenor.com/mJiMZwDloXwAAAAC/typing-cute.gif">
+  			</div>
+
+  			<div class="column">
+  				<form id="contactForm" action="index.html">
+					<input type="text" id="fullName" name="fullName" placeholder="Your name"><br />
+					<input type="text" id="subject" name="subject" placeholder="Subject"><br />
+					<textarea id="message" name="message" rows="10" cols="50" placeholder="Write your message"></textarea>
+					<input type="submit" value="Send message">
+				</form>
+				<div id="feedback"></div>
+  			</div>
+		</div>
+
+	<script src="js/formValidation.js"></script>	
+	</body>
+
+</html>
